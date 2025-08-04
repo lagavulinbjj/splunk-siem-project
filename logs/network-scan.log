@@ -1,0 +1,12 @@
+2025-08-04 11:00:01 Nmap scan report for 192.168.1.10
+Host is up (0.0010s latency).
+Not shown: 997 closed ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+443/tcp  open  https
+
+2025-08-04 11:05:10 Nmap scan report for 10.0.0.25
+Host is up (0.0020s latency).
+All 1000 scanned ports on 10.0.0.25 are closed
+
