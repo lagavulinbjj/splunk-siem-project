@@ -1,0 +1,4 @@
+index=main sourcetype=firewall_logs OR sourcetype=syslog
+| stats dc(dest_port) AS unique_ports by src_ip, host
+| where unique_ports > 10
+
